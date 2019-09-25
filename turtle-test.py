@@ -1,5 +1,5 @@
-import sentry_sdk
-sentry_sdk.init("https://e1bb0649f12642f4ad177f535719a6ee@sentry.io/1761313")
+#import sentry_sdk
+#sentry_sdk.init("https://e1bb0649f12642f4ad177f535719a6ee@sentry.io/1761313")
 import turtle
 tim = turtle.Turtle()
 tim.color('red')
@@ -20,4 +20,3 @@ tim.forward(50)
 tim.left(90)
 tim.forward(61.421356237)
 tim.hideturtle()
-input()

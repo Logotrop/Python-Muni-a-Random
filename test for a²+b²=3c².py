@@ -1,5 +1,5 @@
-import sentry_sdk
-sentry_sdk.init("https://f579bdfd186e4263a310d4e6a8c0543e@sentry.io/1759097")
+#import sentry_sdk
+#sentry_sdk.init("https://f579bdfd186e4263a310d4e6a8c0543e@sentry.io/1759097")
 limitn = int(input("Zadej minimum:"))
 limitm = int(input("Zadej maximum:"))
 
@@ -16,7 +16,7 @@ def test(n, m):
     print("Test ukončen pro interval ",n," - ",m)
     return result
     
-m = limitn + 100
+m = limitn
 n = limitn
 while limitm>m:
     m += 100
