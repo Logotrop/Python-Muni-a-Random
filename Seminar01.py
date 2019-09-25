@@ -6,8 +6,12 @@ def square2(n):
     for row in range(n):
         print("#" * n)
 
+def pyramida(n):
+    for i in range(n):
+        print(" " * 2 *(n-1-i)+ "# " * (2*i + 1))
 n = int(input("zadej N:"))
-    #square(n)
-square2(n)
+
+
+pyramida(n)
 input()
 exit()
