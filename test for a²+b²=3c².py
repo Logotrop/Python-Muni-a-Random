@@ -9,15 +9,18 @@ def test(n, m):
         for b in range(n, m):
             for c in range(n, m):
                 if pow(a, 2) + pow(b, 2) == 3 * pow(c, 2):
-                    result = ("Hodnoty jsou:",a,",",b,",",c)
+                    print("Hodnoty jsou:",a,",",b,",",c)
                     break
                 #else:
                     #print(a,",",b,",",c)
     print("Test ukončen pro interval ",n," - ",m)
     return result
     
-m = limitn + 100
+m = limitn
 n = limitn
+if n == 0:
+    n=1
 while limitm>m:
-    m += 100
+    m +=100
     test(n,m)
+    n=m
