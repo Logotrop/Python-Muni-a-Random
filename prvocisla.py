@@ -4,7 +4,7 @@ start = time.time()
 
 prvocisla = [2]
 m = 3
-n = 1000000
+n = 60
 #n=int(input("Do jakého čísla? "))
 while n>prvocisla[len(prvocisla)-1]:
     neniprvocislo = False
